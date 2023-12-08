@@ -1,6 +1,6 @@
 # Installing Git
 
-[Previous - Git Basics](../README.md)
+[Previous - Git Basics](../README)
 
 Before working on a Git repository, you will need to install Git on your computer.
 This process varies depending on your operating system.
@@ -14,6 +14,7 @@ Windows installers for Git.
 
 If on MacOS Mavericks 10.9 or above, you can automatically initiate the Git
 installer by running the following command in a terminal:
+
 `git --version`
 
 Git is included with Xcode Command Line Tools, so if the above command does
@@ -32,4 +33,4 @@ Visit [this page](https://git-scm.com/download/linux) for a list of distribution
 
 **For more information, visit [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).**
 
-[Next - Setting Up SSH Keys](./ssh_key.md)
+[Next - Setting Up SSH Keys](./ssh_key)
