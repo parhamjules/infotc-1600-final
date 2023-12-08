@@ -29,11 +29,11 @@ You should never put the private file anywhere else other than on your computer.
 
 To manage the SSH keys associated with your account, visit your [account settings](https://github.com/settings/keys).
 
-![Manage SSH Keys in GitHub](./images/ssh_1.png)
+![Manage SSH Keys in GitHub](../images/ssh_1.png)
 
 Click the **New SSH key** button, which will take you to a form to paste your newly-created key.
 
-![New SSH Key Form in GitHub](./images/ssh_2.png)
+![New SSH Key Form in GitHub](../images/ssh_2.png)
 
 In the new SSH key form, you can give the key a **Title**. It is recommended to title the
 key after the device that it goes to. Leave **Key type** as **Authentication Key**, then paste
