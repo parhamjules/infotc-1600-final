@@ -1,6 +1,6 @@
 # Installing Git
 
-[Previous - Git Basics](../README)
+[Previous - Git Basics](../README.md)
 
 Before working on a Git repository, you will need to install Git on your computer.
 This process varies depending on your operating system.
@@ -33,4 +33,4 @@ Visit [this page](https://git-scm.com/download/linux) for a list of distribution
 
 **For more information, visit [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).**
 
-[Next - Setting Up SSH Keys](./ssh_key)
+[Next - Setting Up SSH Keys](./ssh_key.md)

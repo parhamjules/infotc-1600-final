@@ -1,5 +1,5 @@
 # Command Line Basics
 
-[Previous - Creating Repositories](./creating_repo)
+[Previous - Creating Repositories](./creating_repo.md)
 
-[Next - Best Practices](./best_practices)
+[Next - Best Practices](./best_practices.md)
