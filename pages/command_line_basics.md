@@ -114,7 +114,7 @@ define which stash is specifically restored with the **pop** command:
 
 `git stash pop stash_id`
 
-**Note:** If you have added any new files, before stashing your changes, you will
+<u>Note:</u> If you have added any new files, before stashing your changes, you will
 need to either stage the new file (using the **add** command) or use the *-u* flag
 (meaning *unstaged*):
 
