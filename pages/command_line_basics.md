@@ -120,6 +120,22 @@ files, before stashing your changes, you will need to either stage the new file
 
 `git stash -u`
 
-## Merge
+### Merge
+
+Once you have finished working on a Git branch, you will likely want to merge
+your changes into the master/main branch. To accomplish this you can use
+the **merge** branch.
+
+`git merge branch_to_merge_in`
+
+When running the **merge** command, your current branch is the branch which
+will have your changes applied, and the branch to merge in is provided with
+the command.
+
+<u>Note:</u> Sometime merging to branches which conflicting changes will
+result in a *merge conflict*. To resolve this, you will need to go into the
+files which have conflicting changes and manually edit the files. To prevent this,
+it is good practice to merge the master/main branch into your branch (so that
+any conflicts can bee resolved on your branch) before merging your branch up.
 
 [Next - Best Practices](./best_practices.md)
