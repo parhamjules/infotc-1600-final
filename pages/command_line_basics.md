@@ -38,7 +38,7 @@ The **commit** command packages your code together with a message to be pushed.
 
 ### Push
 
-The **push** command takes all of your un-pushed commits and pushed them to GitHub.
+The **push** command takes all of your un-pushed commits and pushes them to GitHub.
 
 `git push`
 
@@ -79,7 +79,7 @@ When working with branches, you will quickly notice that when checking out from
 one branch to another, any un-committed code changes will move with you to the new
 branch. Most of the time when changing branches, you will not want to take your changes
 with you. You could just commit and push your changes, however you may not be far enough
-with you current changes to want to push them. To get around this issue, we can
+with your current changes to want to push them. To get around this issue, we can
 **stash** our changes.
 
 `git stash`
@@ -90,13 +90,13 @@ using the **pop** command:
 
 `git stash pop`
 
-One important this to understand about stashed changes, is that they are not
+One important thing to understand about stashed changes, is that they are not
 specific to your branch. So, if you stash your changes on one branch, and then
 run the **pop** command on another branch, your stashed changes from the other branch
 will be applied. Furthermore, the **pop** command only restores the most recent stash.
 
 With these restrictions in mind, there are a few additional commands we can use
-to make **stash** easier to work. The first of which is the **save** command:
+to make **stash** easier to work with. The first of which is the **save** command:
 
 `git stash save "message describing what is stashed here"`
 
@@ -108,7 +108,7 @@ handy when used with the **list** command:
 This command will show you a list of all your stashes. If you used the **save**
 command to give your stash a message, the message will be displayed alongside each
 stash. Each stash will also have an id associated with it, in the form of
-*stash@{number_of_stashed_back}*. When using the **pop** command by itself, it implicitly
+*stash@{number_of_stashes_back}*. When using the **pop** command by itself, it implicitly
 chooses the most recent stash, which has an id of *stash@{0}*. You can however
 define which stash is specifically restored with the **pop** command:
 
@@ -123,8 +123,8 @@ files, before stashing your changes, you will need to either stage the new file
 ### Merge
 
 Once you have finished working on a Git branch, you will likely want to merge
-your changes into the master/main branch. To accomplish this you can use
-the **merge** branch.
+your changes into the master/main branch. To accomplish this, you can use
+the **merge** command.
 
 `git merge branch_to_merge_in`
 
@@ -132,10 +132,8 @@ When running the **merge** command, your current branch is the branch which
 will have your changes applied, and the branch to merge in is provided with
 the command.
 
-<u>Note:</u> Sometime merging to branches which conflicting changes will
-result in a *merge conflict*. To resolve this, you will need to go into the
-files which have conflicting changes and manually edit the files. To prevent this,
+<u>Note:</u> Sometime merging two branches which have conflicting changes will
+result in a *merge conflict*. To resolve this, you will need to go into the individual
+files which have conflicting changes and manually edit the files. With this in mind,
 it is good practice to merge the master/main branch into your branch (so that
-any conflicts can bee resolved on your branch) before merging your branch up.
-
-[Next - Best Practices](./best_practices.md)
+any conflicts can be resolved on your branch) before merging your branch up to main/master.

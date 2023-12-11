@@ -25,7 +25,7 @@ Additional installation methods for Git on MacOS are available [here](https://gi
 ### Installing on Linux
 
 Most distributions of Linux offer Git as an installable package through their
-built in package manager. Because different distributions use different
+built-in package manager. Because different distributions use different
 package managers, the command to install Git will depend on which distribution
 you are using.
 

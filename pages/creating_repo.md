@@ -1,5 +1,7 @@
 # Creating Repositories
 
+[Previous - Setting Up SSH Keys](./ssh_key.md)
+
 The first step of creating a new repository, or *repo* for short, is to
 create it in GitHub.
 
@@ -42,7 +44,5 @@ git branch -M main_or_master_branch_name
 git remote add origin url_provided_by_github
 git push -u origin main_or_master_branch_name
 ```
-
-[Previous - Setting Up SSH Keys](./ssh_key.md)
 
 [Next - Command Line Basics](./command_line_basics.md)

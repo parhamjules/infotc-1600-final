@@ -2,7 +2,7 @@
 ### by Jules Parham
 
 The purpose of this tutorial is to provide a quick reference for
-getting started with GitHub, and an overview of it's most useful
+getting started with GitHub, and an overview of its most useful
 command line commands.
 
 This tutorial is primary targeted towards those with beginner/intermediate
