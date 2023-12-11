@@ -7,12 +7,12 @@ The purpose of this page is to demonstrate some of the core git commands.
 Here is a quick list of the commands discussed below.
 | Command | Description |
 | ------- | ----------- |
-| [Add](Add) | Prepares your code changes to be committed. |
-| [Commit](Commit) | Packages your added code changes as a commit to be pushed. |
-| [Push](Push) | Pushes your committed code changes to your current branch in GitHub. |
-| [Checkout](Checkout) | Allows you to create or change branches. |
-| [Stash](Stash) | Store your code changes and revert to the last commit. |
-| [Merge](Merge) | Merge code from two branches together. |
+| Add | Prepares your code changes to be committed. |
+| Commit | Packages your added code changes as a commit to be pushed. |
+| Push | Pushes your committed code changes to your current branch in GitHub. |
+| Checkout | Allows you to create or change branches. |
+| Stash | Store your code changes and revert to the last commit. |
+| Merge | Merge code from two branches together. |
 
 ## Pushing Code Changes
 
